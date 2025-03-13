@@ -44,3 +44,5 @@ models:
       +materialized: table
       +schema: Patents
       +enabled: true
+    pat_transform:
+      +materialized: table
