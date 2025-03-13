@@ -47,7 +47,7 @@ models:
         +enabled: true
     pat_new:
       pat_transform:
-        +materialized: table
+        +materialized: incremental
         +schema: patents_title
         +enabled: true
  
