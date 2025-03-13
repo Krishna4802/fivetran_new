@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: pat_transform
+    database: FIVETRAN_DATABASE
+    schema: POSTGRES_PUBLIC
+    tables:
+      - name: "PATENT_TABLE"
