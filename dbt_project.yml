@@ -40,13 +40,13 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-    patents_transform:
-      patents_transformed_data:
+    patents:
+      patents_transform:
         +materialized: table
         +schema: data_mart
         +enabled: true
-    pat_transform:
-      title_transform_data:
+    pat_new:
+      pat_transform:
         +materialized: table
         +schema: patents_title
         +enabled: true
